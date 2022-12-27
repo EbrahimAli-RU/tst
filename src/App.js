@@ -25,10 +25,10 @@ const App = (props) => {
           autoComplete="off"
           className="form-control w-50"
           value={val}
-          // inputRef={input => {
-          //   console.log(input)
-          //   console.log(input.focus)
-          // }}
+          inputRef={input => {
+            console.log(input)
+            console.log(input.focus)
+          }}
           onChange={(e) => onChangeInputText(e)}
           // onKeyPress={onKeyPressHandleEnter(chat)}
       >
